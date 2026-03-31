@@ -1,10 +1,12 @@
 import { CiShoppingCart } from "react-icons/ci";
+import { toast } from "react-toastify";
 
 
 const Cart = ({ carts ,setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)
   const handlePayment = () => {
     setCarts([])
+    toast.success("Order Confirm");
 
     
   }

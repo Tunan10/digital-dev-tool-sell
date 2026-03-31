@@ -25,7 +25,7 @@ const [activeTab, setActiveTab] = useState("Products");
 
   return (
     <>
-      <Navbar />
+      <Navbar carts={carts} />
       <Banner />
       <BannerFooter />
 

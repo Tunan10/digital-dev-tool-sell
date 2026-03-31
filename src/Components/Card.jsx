@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
 const Card = ({ model,carts, setCarts }) => {
   const [isSubcribed, setIsSubcribed] = useState(false);
   const handleSubcription = () => {
     setIsSubcribed(true)
 
-    setCarts([...carts,model])
+    const isFound = carts.find(item => item.id === model.id)
+    if (isFound) {
+      toast.error("Item alreay in cart")
+      return
+    }
+    
+
+    setCarts([...carts, model])
+    toast.success("Item added to cart")
   }
 
   
@@ -50,7 +59,7 @@ const Card = ({ model,carts, setCarts }) => {
     <div className="card-actions justify-end">
               <button onClick={handleSubcription} className={`btn btn-primary w-full rounded-full ${isSubcribed ?"bg-green-500 text-white border-none" :"bg-blue-500 text-white border-none"}`}>
                 
-                {isSubcribed ? "Added to cart" : "Buy Now"}</button>
+                {isSubcribed ? "✔ Added to cart" : "Buy Now"}</button>
     </div>
   </div>
 </div>

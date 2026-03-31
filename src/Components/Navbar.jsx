@@ -1,6 +1,12 @@
 import { IoCartOutline } from "react-icons/io5";
+import { toast } from "react-toastify";
 
-const NavBar = () => {
+const NavBar = ({ carts }) => {
+
+  const navBtn = () => {
+    toast.warning("Sorry");
+  }
+
   return (
     <div className="navbar w-10/12 mx-auto">
       <div className="navbar-start">
@@ -25,11 +31,16 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-5">
-        <a className="flex justify-center items-center text-xl  gap-5"><IoCartOutline />
-          
-          
+        <a className="flex justify-center items-center text-xl  gap-5"><IoCartOutline /><div>
+          {carts.length > 0 && (
+            <span className="absolute top-2 right-52  bg-red-500 text-white text-xs px-2 py-0.5 rounded-full">
+              {carts.length}
+            </span>
+          )}
+        </div>
+         
           Login</a>
-        <a className="btn bg-linear-to-r from-blue-500 to-purple-500 rounded-full text-white">Get Started</a>
+        <button onClick={navBtn} className="btn bg-linear-to-r from-blue-500 to-purple-500 rounded-full text-white">Get Started</button>
       </div>
     </div>
   );
