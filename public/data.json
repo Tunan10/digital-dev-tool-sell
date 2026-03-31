@@ -1,118 +1,106 @@
 [
   {
     "id": 1,
-    "name": "Starter Resume Kit",
-    "description": "Perfect for beginners to create professional resumes easily.",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
     "price": 9.99,
-    "period": "one-time",
-    "tag": "new",
-    "tagType": "new",
-    "features": ["50+ templates", "Basic customization", "Export to PDF"],
-    "icon": "FileText",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "tagColor": "bg-blue-500 text-white",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
   },
   {
     "id": 2,
-    "name": "Pro Resume Builder",
-    "description": "Advanced tools for building ATS-friendly resumes.",
+    "name": "Portfolio Website Kit",
+    "description": "Build a modern portfolio website easily.",
     "price": 19.99,
     "period": "one-time",
     "tag": "best seller",
     "tagType": "best seller",
-    "features": [
-      "150+ templates",
-      "ATS optimization",
-      "Download in multiple formats"
-    ],
-    "icon": "Award",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+    "tagColor": "bg-green-500 text-white",
+    "features": ["Responsive design", "React components", "Easy customization"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png"
   },
   {
     "id": 3,
-    "name": "Career Boost Monthly",
-    "description": "Monthly access to premium career tools and updates.",
-    "price": 7.99,
+    "name": "AI Content Writer",
+    "description": "Generate blog posts, ads, and SEO content instantly.",
+    "price": 14.99,
     "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
-    "features": [
-      "Unlimited resume edits",
-      "Cover letter builder",
-      "LinkedIn optimization tips"
-    ],
-    "icon": "TrendingUp",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/1828/1828911.png"
+    "tag": "new",
+    "tagType": "new",
+    "tagColor": "bg-purple-500 text-white",
+    "features": ["SEO optimized", "Multiple tones", "Fast generation"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png"
   },
   {
     "id": 4,
-    "name": "Job Hunter Pro",
-    "description": "All-in-one toolkit for job seekers.",
-    "price": 14.99,
-    "period": "monthly",
+    "name": "E-commerce Starter Pack",
+    "description": "Launch your online store quickly and easily.",
+    "price": 49.99,
+    "period": "one-time",
     "tag": "popular",
     "tagType": "popular",
+    "tagColor": "bg-blue-500 text-white",
     "features": [
-      "Job tracking dashboard",
-      "Interview preparation",
-      "Email templates"
+      "Payment integration",
+      "Product management",
+      "Mobile friendly"
     ],
-    "icon": "Briefcase",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/3062/3062634.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/3081/3081559.png"
   },
   {
     "id": 5,
-    "name": "Ultimate Career Pack",
-    "description": "Complete career toolkit for professionals.",
-    "price": 99.99,
-    "period": "yearly",
+    "name": "Social Media Scheduler",
+    "description": "Automate and manage your social media posts.",
+    "price": 7.99,
+    "period": "monthly",
     "tag": "best seller",
     "tagType": "best seller",
+    "tagColor": "bg-green-500 text-white",
     "features": [
-      "All premium features",
-      "1-on-1 career guidance",
-      "Portfolio builder"
+      "Auto posting",
+      "Analytics dashboard",
+      "Multi-platform support"
     ],
-    "icon": "Crown",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/616/616494.png"
+    "icon": "https://cdn-icons-png.flaticon.com/512/733/733547.png"
   },
   {
     "id": 6,
-    "name": "Portfolio Builder",
-    "description": "Create stunning portfolios to showcase your work.",
+    "name": "UI Design System",
+    "description": "Complete UI kit for web and mobile apps.",
     "price": 29.99,
     "period": "one-time",
     "tag": "new",
     "tagType": "new",
-    "features": [
-      "Custom domain support",
-      "Drag & drop builder",
-      "Responsive design"
-    ],
-    "icon": "Layout",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/1828/1828970.png"
+    "tagColor": "bg-purple-500 text-white",
+    "features": ["Figma files", "Reusable components", "Dark/light mode"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
   },
   {
     "id": 7,
-    "name": "Interview Mastery",
-    "description": "Ace your interviews with expert guidance.",
-    "price": 12.99,
+    "name": "Online Course Platform",
+    "description": "Create and sell your own courses online.",
+    "price": 24.99,
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
-    "features": ["Mock interviews", "Common Q&A", "Confidence training"],
-    "icon": "Mic",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/727/727245.png"
+    "tagColor": "bg-blue-500 text-white",
+    "features": ["Video hosting", "Student management", "Payment system"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
   },
   {
     "id": 8,
-    "name": "LinkedIn Growth Tool",
-    "description": "Optimize your LinkedIn profile and grow your network.",
-    "price": 49.99,
+    "name": "Email Marketing Tool",
+    "description": "Design and send professional email campaigns.",
+    "price": 12.99,
     "period": "yearly",
-    "tag": "new",
-    "tagType": "new",
-    "features": ["Profile analyzer", "Connection strategy", "Content ideas"],
-    "icon": "Users",
-    "iconImage": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
+    "tag": "best seller",
+    "tagType": "best seller",
+    "tagColor": "bg-green-500 text-white",
+    "features": ["Drag & drop editor", "Automation", "Analytics"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/561/561127.png"
   }
 ]
