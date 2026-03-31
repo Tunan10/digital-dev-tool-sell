@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes easily.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["50+ templates", "Basic customization", "Export to PDF"],
+    "icon": "FileText",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools for building ATS-friendly resumes.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "150+ templates",
+      "ATS optimization",
+      "Download in multiple formats"
+    ],
+    "icon": "Award",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Monthly",
+    "description": "Monthly access to premium career tools and updates.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited resume edits",
+      "Cover letter builder",
+      "LinkedIn optimization tips"
+    ],
+    "icon": "TrendingUp",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/1828/1828911.png"
+  },
+  {
+    "id": 4,
+    "name": "Job Hunter Pro",
+    "description": "All-in-one toolkit for job seekers.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Job tracking dashboard",
+      "Interview preparation",
+      "Email templates"
+    ],
+    "icon": "Briefcase",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/3062/3062634.png"
+  },
+  {
+    "id": 5,
+    "name": "Ultimate Career Pack",
+    "description": "Complete career toolkit for professionals.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All premium features",
+      "1-on-1 career guidance",
+      "Portfolio builder"
+    ],
+    "icon": "Crown",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/616/616494.png"
+  },
+  {
+    "id": 6,
+    "name": "Portfolio Builder",
+    "description": "Create stunning portfolios to showcase your work.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Custom domain support",
+      "Drag & drop builder",
+      "Responsive design"
+    ],
+    "icon": "Layout",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/1828/1828970.png"
+  },
+  {
+    "id": 7,
+    "name": "Interview Mastery",
+    "description": "Ace your interviews with expert guidance.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "Common Q&A", "Confidence training"],
+    "icon": "Mic",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/727/727245.png"
+  },
+  {
+    "id": 8,
+    "name": "LinkedIn Growth Tool",
+    "description": "Optimize your LinkedIn profile and grow your network.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Profile analyzer", "Connection strategy", "Content ideas"],
+    "icon": "Users",
+    "iconImage": "https://cdn-icons-png.flaticon.com/512/1077/1077114.png"
+  }
+]
