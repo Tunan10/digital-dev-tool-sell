@@ -25,7 +25,10 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-5">
-        <a className="flex justify-center items-center text-xl  gap-5"><IoCartOutline/>Login</a>
+        <a className="flex justify-center items-center text-xl  gap-5"><IoCartOutline />
+          
+          
+          Login</a>
         <a className="btn bg-linear-to-r from-blue-500 to-purple-500 rounded-full text-white">Get Started</a>
       </div>
     </div>

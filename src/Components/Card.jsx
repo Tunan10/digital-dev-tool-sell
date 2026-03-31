@@ -8,6 +8,9 @@ const Card = ({ model,carts, setCarts }) => {
 
     setCarts([...carts,model])
   }
+
+  
+  
   return (
     <div>
       <div className=' mt-3'>
@@ -45,7 +48,9 @@ const Card = ({ model,carts, setCarts }) => {
         </ul>
                     </div>
     <div className="card-actions justify-end">
-              <button onClick={handleSubcription} className="btn btn-primary w-full rounded-full">{isSubcribed ? "Added to cart" :"Buy Now"}</button>
+              <button onClick={handleSubcription} className={`btn btn-primary w-full rounded-full ${isSubcribed ?"bg-green-500 text-white border-none" :"bg-blue-500 text-white border-none"}`}>
+                
+                {isSubcribed ? "Added to cart" : "Buy Now"}</button>
     </div>
   </div>
 </div>

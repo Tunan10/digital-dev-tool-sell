@@ -5,8 +5,10 @@ const Cart = ({ carts ,setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)
   const handlePayment = () => {
     setCarts([])
+
     
   }
+  
   const handleDelet = (item) => {
     const filterArray = carts.filter(c => c.id !== item.id);
     setCarts(filterArray);

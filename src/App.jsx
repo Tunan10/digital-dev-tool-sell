@@ -52,7 +52,7 @@ const [activeTab, setActiveTab] = useState("Products");
   name="my_tabs_1"
   className="tab rounded-full font-semibold w-25 
   checked:bg-linear-to-r checked:from-blue-500 checked:to-purple-500 checked:text-white"
-            aria-label="Cart"
+            aria-label={`Cart(${carts.length})`}
             onClick={()=>setActiveTab("Cart")}
 />
             
