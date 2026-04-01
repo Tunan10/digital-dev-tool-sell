@@ -1,10 +1,12 @@
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10 ">
       <div className="max-w-7xl  px-6 w-10/12 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           {/* Logo & Description */}
-          <div className="md:col-span-5">
+          <div className="md:col-span-3">
             <div className="flex items-center gap-3 mb-6">
              
               <h2 className="text-3xl font-bold tracking-tighter text-white">
@@ -25,7 +27,7 @@ const Footer = () => {
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Models
+                 Features
                 </a>
               </li>
               <li>
@@ -35,12 +37,12 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Features
+                  Templates
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  API
+                  Integrations
                 </a>
               </li>
             </ul>
@@ -51,7 +53,7 @@ const Footer = () => {
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
-                  About Us
+                  About 
                 </a>
               </li>
               <li>
@@ -66,32 +68,43 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Contact
+                  Press
                 </a>
               </li>
             </ul>
           </div>
 
-          <div className="md:col-span-3">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Legal</h3>
+          <div className="md:col-span-2">
+            <h3 className="text-red-400 font-semibold mb-6 text-lg">Resources</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Privacy Policy
+                 Documentation
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Terms of Service
+                  Help Center
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Cookie Settings
+                 Community
                 </a>
               </li>
             </ul>
+            
           </div>
+           <div className="md:col-span-2">
+            <h3 className="text-red-400 font-semibold mb-6 text-lg">Social link</h3>
+            <div className="text-white flex gap-5 ">
+              <FaFacebook />
+              <FaGithub /> 
+              <FaLinkedin/>
+            </div>
+            
+          </div>
+
         </div>
 
         {/* Bottom Bar */}
@@ -100,10 +113,14 @@ const Footer = () => {
 
           <div className="flex gap-6">
             <a href="#" className="hover:text-red-400 transition">
-              Made with  Ns.Tunan
+              Developed by Tunan
             </a>
+            
+
+            
           </div>
         </div>
+       
       </div>
     </footer>
   );

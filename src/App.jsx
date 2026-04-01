@@ -6,6 +6,8 @@ import Cart from './Components/Cart'
 import Footer from './Components/Footer'
 import Models from './Components/Models'
 import Navbar from './Components/Navbar'
+import SectionTransform from './Components/SectionTransform'
+import PricingCard from './Components/PricingCard'
 
 const getData = async () => {
   const res = await fetch("/data.json");
@@ -62,7 +64,10 @@ const [activeTab, setActiveTab] = useState("Products");
 
       {activeTab === "Products" && <Models modelPromise={modelPromise} carts={carts} setCarts={ setCarts} />}
       
-      {activeTab==="Cart" && <Cart carts={carts} setCarts={setCarts} />}
+      {activeTab === "Cart" && <Cart carts={carts} setCarts={setCarts} />}
+      
+      <PricingCard/>
+      <SectionTransform/>
       <Footer/>
 
     </>

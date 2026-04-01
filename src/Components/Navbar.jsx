@@ -8,7 +8,8 @@ const NavBar = ({ carts }) => {
   }
 
   return (
-    <div className="navbar w-10/12 mx-auto">
+    <div className="sticky top-0 z-50 bg-white">
+      <div className="navbar w-10/12 mx-auto  ">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl">
           <h1 className="bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent text-3xl font-bold">DegiTools</h1>
@@ -42,6 +43,7 @@ const NavBar = ({ carts }) => {
           Login</a>
         <button onClick={navBtn} className="btn bg-linear-to-r from-blue-500 to-purple-500 rounded-full text-white">Get Started</button>
       </div>
+    </div>
     </div>
   );
 };
